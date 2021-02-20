@@ -22,5 +22,9 @@
         "stories": ["TestButton"]
       }
     }
-  ]
+  ],
+  "github": {
+    "repository": "prasanthtr575/ui-dev-work-flow",
+    "branch": "main"
+  }
 }
