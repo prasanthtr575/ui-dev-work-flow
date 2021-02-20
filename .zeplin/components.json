@@ -29,6 +29,14 @@
         "kind": "Demo/Inputbox",
         "stories": ["TestInputbox"]
       }
+    },
+    {
+      "path": "src/components/toolbar/Toolbar.tsx",
+      "zeplinNames": ["toolbar"],
+      "storybook": {
+        "kind": "Demo/Toolbar",
+        "stories": ["TestToolbar"]
+      }
     }
   ],
   "github": {
