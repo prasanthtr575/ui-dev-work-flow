@@ -2,6 +2,13 @@
   "plugins": [
     {
       "name": "@zeplin/cli-connect-react-plugin"
+    },
+    {
+      "name": "@zeplin/cli-connect-storybook-plugin",
+      "config": {
+        "url": "http://localhost:6006",
+        "startScript": "storybook"
+      }
     }
   ],
   "projects": ["6016d340860b2414cd0d2c15"],
@@ -9,7 +16,11 @@
   "components": [
     {
       "path": "src/components/Button.tsx",
-      "zeplinNames": ["Button"]
+      "zeplinNames": ["Button"],
+      "storybook": {
+        "kind": "Demo/Button",
+        "stories": ["TestButton"]
+      }
     }
   ]
 }
