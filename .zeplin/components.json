@@ -21,6 +21,14 @@
         "kind": "Demo/Button",
         "stories": ["TestButton"]
       }
+    },
+    {
+      "path": "src/components/inputBox/InputBox.tsx",
+      "zeplinNames": ["Input"],
+      "storybook": {
+        "kind": "Demo/Inputbox",
+        "stories": ["TestInputbox"]
+      }
     }
   ],
   "github": {

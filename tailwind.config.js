@@ -6,7 +6,8 @@ module.exports = {
       sambuca: '#3C2410',
       'mint-green': '#86F584',
       'test-bg-color': '#876757',
-      white: '#ffffff'
+      white: '#ffffff',
+      black: '#000000'
     },
     backgroundColor: theme => theme('colors'),
     fontSize: {
