@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
+
+@font-face {
+  font-family: 'ComicSans';
+  src: local('ComicSans'), url(../fonts/comic-sans-bold.ttf) format('ttf'),
+    url(../fonts/comic-sans-regular.ttf) format('ttf');
+}
+
 @tailwind utilities;

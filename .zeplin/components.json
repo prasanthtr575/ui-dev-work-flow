@@ -15,28 +15,35 @@
   "styleguides": [],
   "components": [
     {
-      "path": "src/components/Button.tsx",
+      "path": "src/components/atoms/button/Button.tsx",
       "zeplinNames": ["Button"],
       "storybook": {
-        "kind": "Demo/Button",
-        "stories": ["TestButton"]
+        "kind": "Atoms/Button",
+        "stories": [
+          "ButtonEnabled",
+          "ButtonDisabled",
+          "RoundButtonNormal",
+          "RoundButtonDisabled"
+        ]
       }
     },
     {
-      "path": "src/components/inputBox/InputBox.tsx",
-      "zeplinNames": ["Input"],
+      "path": "src/components/atoms/textField/TextField.tsx",
+      "zeplinNames": ["Textfield"],
       "storybook": {
-        "kind": "Demo/Inputbox",
-        "stories": ["TestInputbox"]
+        "kind": "Atoms/TextField",
+        "stories": ["TextFieldEnabled", "TextFieldDisabled"]
       }
     },
     {
-      "path": "src/components/toolbar/Toolbar.tsx",
-      "zeplinNames": ["toolbar"],
-      "storybook": {
-        "kind": "Demo/Toolbar",
-        "stories": ["TestToolbar"]
-      }
+      "path": "src/components/atoms/header/Header.tsx",
+      "zeplinNames": ["Header"],
+      "storybook": { "kind": "Atoms/Header", "stories": ["Topbar"] }
+    },
+    {
+      "path": "src/components/atoms/footer/Footer.tsx",
+      "zeplinNames": ["Footer"],
+      "storybook": { "kind": "Atoms/Footer", "stories": ["Bottombar"] }
     }
   ],
   "github": {
