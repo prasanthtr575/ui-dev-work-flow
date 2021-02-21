@@ -30,6 +30,7 @@ module.exports = {
       '40px': '40px',
       '57px': '57px',
       '80px': '80px',
+      '120px': '120px',
       '500px': '500px'
     },
     extend: {
