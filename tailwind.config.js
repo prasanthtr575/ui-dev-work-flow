@@ -25,6 +25,7 @@ module.exports = {
       bold: 700
     },
     spacing: {
+      '0px': '0px',
       '20px': '20px',
       '40px': '40px',
       '57px': '57px'

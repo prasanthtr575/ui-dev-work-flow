@@ -38,12 +38,34 @@
     {
       "path": "src/components/atoms/header/Header.tsx",
       "zeplinNames": ["Header"],
-      "storybook": { "kind": "Atoms/Header", "stories": ["Topbar"] }
+      "storybook": {
+        "kind": "Atoms/Header",
+        "stories": ["Topbar"]
+      }
     },
     {
       "path": "src/components/atoms/footer/Footer.tsx",
       "zeplinNames": ["Footer"],
-      "storybook": { "kind": "Atoms/Footer", "stories": ["Bottombar"] }
+      "storybook": {
+        "kind": "Atoms/Footer",
+        "stories": ["Bottombar"]
+      }
+    },
+    {
+      "path": "src/components/molecues/listItem/ListItem.tsx",
+      "zeplinNames": ["ListItem"],
+      "storybook": {
+        "kind": "Molecules/ListItem",
+        "stories": ["ListItemWithBottomBorder", "ListItemWithoutBottomBorder"]
+      }
+    },
+    {
+      "path": "src/components/molecues/toolbar/Toolbar.tsx",
+      "zeplinNames": ["Toolbar"],
+      "storybook": {
+        "kind": "Molecules/Toolbar",
+        "stories": ["TodoInputBox"]
+      }
     }
   ],
   "github": {
