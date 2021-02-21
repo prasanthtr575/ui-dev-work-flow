@@ -66,6 +66,30 @@
         "kind": "Molecules/Toolbar",
         "stories": ["TodoInputBox"]
       }
+    },
+    {
+      "path": "src/components/organisms/list/List.tsx",
+      "zeplinNames": ["List"],
+      "storybook": {
+        "kind": "Organisms/List",
+        "stories": ["ListWithItems", "ListWithoutItems"]
+      }
+    },
+    {
+      "path": "src/components/organisms/todoList/TodoList.tsx",
+      "zeplinNames": ["TodoList"],
+      "storybook": {
+        "kind": "Organisms/TodoList",
+        "stories": ["TodoListComponent"]
+      }
+    },
+    {
+      "path": "src/components/templates/todo/Todo.tsx",
+      "zeplinNames": ["Todo"],
+      "storybook": {
+        "kind": "Templates/Todo",
+        "stories": ["TodoComponent"]
+      }
     }
   ],
   "github": {

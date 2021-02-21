@@ -28,7 +28,9 @@ module.exports = {
       '0px': '0px',
       '20px': '20px',
       '40px': '40px',
-      '57px': '57px'
+      '57px': '57px',
+      '80px': '80px',
+      '500px': '500px'
     },
     extend: {
     },
