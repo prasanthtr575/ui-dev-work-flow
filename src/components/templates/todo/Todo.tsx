@@ -24,7 +24,7 @@ function Todo() {
     <TodosContext.Provider value={{ tasks: todos, updateTodos, deleteTodo }}>
       <div className="h-screen flex flex-col">
         <Header>Todo</Header>
-        <div className="my-80px mx-120px lg:mx-500px flex-1">
+        <div className="my-80px md:mx-120px lg:mx-500px sm:mx-20px flex-1">
           <TodoList />
         </div>
         <Footer className="mt-40px">Atomic Design Principle</Footer>
